@@ -1,0 +1,10 @@
+@import url(menu.css);
+@import url(jeu.css);
+@import url(logo.css);
+@import url(body.css);
+@import url(sprite.css);
+
+
+/*
+J'importe les différents .css utilisés dans ce projet, je les ai séparé pour faciliter la tâche
+*/

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@100&family=Rubik+Wet+Paint&display=swap');
+
+
+
+/*
+J'ai fais en sorte que mon body soit centrer pour que ce soit plus élégant,
+j'ai mis également un fond noir
+et j'y ai ajouter un footer en bas de la page
+*/
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+footer {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    background-color: black;
+}

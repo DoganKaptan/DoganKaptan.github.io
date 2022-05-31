@@ -1,0 +1,65 @@
+/*
+sprite.css est constitué des différents "éléments" qui vont consitutés ma grille, on y retrouve : 
+la terre
+le rocher
+le mur
+le diamant
+le vide
+et le personnage Rockford
+
+j'avais au préalable redimensionné les images .png en 32 pixel par 32 pixel pour ne pas avoir de soucis
+ici j'ai quand même redimensionné les textures en 32px par 32px pour éviter la dupplication de texture si on change la résolution
+Pour la grille j'ai choisi un fond noir car je l'ai pas d'image en background, et donc j'ai également mis le vide en noir
+*/
+
+.tab {
+  display: flex;
+}
+
+.terre {
+  background: url(image/terre.png);
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
+.rocher {
+  background: url(image/pierre.png);
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
+.mur {
+  background: url(image/mur.png);
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
+.vide {
+  background-color: black;
+  width: 32px;
+  height: 32px;
+}
+
+.diamant {
+  background: url(image/diamant.png);
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
+.Rockford {
+  background: url(image/personnage.png);
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
+#grille {
+  color: black;
+  align-self: center;
+  background-repeat: no-repeat;
+
+}

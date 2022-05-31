@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+/*
+Pour le menu.css, j'ai importer un google font qui faisait plus "retro" qui allait bien avec le thème du jeu
+
+pour ma div bienvenue, je l'ai centré et mis un rembourrage de 50 px sinon ça collait trop au logo
+
+ensuite pour mes bouttons, je les ai tous mis dans le même style, c'est à dire en fond blanc avec une couleur de police bleu
+et j'ai mis un hover rouge pour bien différencier si la souris est sur les boutons ou non
+
+*/
+
+#bienvenue {
+    align-self: center;
+    padding-top: 50px;
+}
+
+#bienvenue>button {
+
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 100%;
+    background-color: white;
+    color: #002640;
+    display: block;
+    border-radius: 15px;
+    width: 250px;
+    margin-bottom: 45px;
+}
+
+#bienvenue>button:hover {
+    color: red;
+    background-color: #002640;
+}

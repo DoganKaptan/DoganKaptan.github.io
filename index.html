@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Boulder Dash</title> <!-- Nom de "l'onglet" -->
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <a href="" class="logo"><img src="image/logo.png"></a>
+  <!-- Logo du jeu qui permet de revenir à la page d'acceuil et reset les niveaux enregistrés lorsqu'on clique dessus -->
+  <footer>Edited by Dogan KAPTAN</footer>
+  <!-- Footer -->
+  <div id="bienvenue">
+    <!-- div bienvenue qui regroupe les boutons Nouvelle partie, Reprendre la partie, Charger un niveau -->
+    <button id="jouer" onclick=chargerMap()>Nouvelle partie</button>
+    <!-- bouton "jouer" avec comme nom Nouvelle partie qui charge la nouvelle partie -->
+    <button id="reprendre">Reprendre la partie </button>
+    <!-- bouton "reprendre" avec comme nom Reprendre qui reprend la partie en cours -->
+    <button id="charger">Charger un niveau</button>
+    <!-- bouton "charger" qui devait permettre de charger un niveau avec un fichier .txt, malheureuseusement pas réussi -->
+
+  </div>
+
+  <div id="jeu" hidden>
+    <!-- div jeu qui regroupe les boutons Acceuil, Recommencer en cours de partie -->
+    <button id="accueil">Accueil</button>
+    <!-- bouton "acceuil" avec comme nom Acceuil permet de revenir à l'acceuil -->
+    <button id="recommencer">Recommencer</button>
+    <!-- bouton "recommencer" avec comme nom Recommencer permet de recommencer le niveau en cours -->
+    <div id="grille">
+      <!-- div grille qui affiche la grille -->
+    </div>
+
+
+    <div>
+      <div id="Niveau">Niveau actuel</div>
+      <!-- div Niveau qui permet d'indiquer le niveau actuel -->
+      <div id="Diamant">Nombre de diamant présent</div>
+      <!-- div Diamant qui permet d'afficher le nombre de diamant présent sur la map -->
+      <div id="Recolte">Nombre de diamant récolté</div>
+      <!-- div Recolte qui permet d'afficher le nombre de diamant récolté -->
+      <div id="Deplacement">Nombre de déplacement effectué</div>
+      <!-- div Deplacement qui affiche le nombre de déplacement effectué -->
+
+    </div>
+
+    <script type="text/javascript" src="js/application.js"></script>
+
+    <script src="js/map.js"></script>
+
+    <script src="js/mouvement.js"></script>
+
+</body>
+
+</html>

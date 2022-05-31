@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+
+/*
+Pour mes boutons lorsque je suis en jeu : 
+Ce sont les mêmes boutons que dans le menu acceuil sauf charger un niveau qui n'est pas présent
+Je leur est mis le même design que ceux dans le menu acceuil
+
+pour les "compteurs", j'ai simplement mis les div#Niveau... en blanc sur fond noir pour bien les voir
+et j'ai ajouter un padding sur la gauche pour la grille pour "centrer" .
+*/
+#jeu>button {
+  font-family: 'Rubik Wet Paint', cursive;
+  font-size: 100%;
+  background-color: white;
+  color: #002640;
+  display: block;
+  border-radius: 15px;
+  width: 250px;
+  margin-bottom: 45px;
+}
+
+#jeu>button:hover {
+  color: red;
+  background-color: #002640;
+}
+
+div#Niveau,
+div#Diamant,
+div#Recolte,
+div#Deplacement {
+  color: white;
+  background-color: black;
+}
+
+
+#grille {
+  padding-left: 20%;
+}
